@@ -14,9 +14,4 @@ describe('App: Angular2DynamicComponents', () => {
       inject([Angular2DynamicComponentsAppComponent], (app: Angular2DynamicComponentsAppComponent) => {
     expect(app).toBeTruthy();
   }));
-
-  it('should have as title \'angular2-dynamic-components works!\'',
-      inject([Angular2DynamicComponentsAppComponent], (app: Angular2DynamicComponentsAppComponent) => {
-    expect(app.title).toEqual('angular2-dynamic-components works!');
-  }));
 });
